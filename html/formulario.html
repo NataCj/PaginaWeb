@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesion</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+    </head>
+<body > 
+  <fieldset id="fieldset">
+    <div id="formulario">
+      <form autocomplete="" method="post" id="form">
+        <section class="form">
+          <div class="form">
+            <div>
+               <h1>Registrate</h1>
+                 <div>
+                   <label for="nombre">Nombre</label>
+                   <input class="registro" type="text" id="name" placeholder="Ingrese su Nombre completo" > <span class="barra"></span>
+                    <br>
+                  <div>
+                    <label for="email">Email</label>
+                    <input class="registro" type="email" name="correo" id="email" placeholder="Ingrese su Correo" ><span class="barra"></span>
+                  </div>
+                  <div>
+                    <br>
+                    <label for="password">Contraseña</label>
+                    <input class="registro" type="password" id="password" placeholder="Ingrese su Contraseña"><span class="barra"></span>
+                    <br>
+                  </div>
+                  <div>
+                    <label for="Cumpleaños">Cumpleaños</label><br>
+                    <input type="date" id="cumpleaños" required><span class="barra"></span>
+                  </div>
+                    <br>
+                  <div>
+                   <button type="submit">Registrarte</button>
+                   <p class="warnings" id="warnings"></p>
+                  </div>
+                 <a href="../html/iniciasesion.html">Ya tengo una cuenta</a>
+                 </div>
+                 <a href="../index.html">Regresar a la página principal </a>
+
+              </div>
+          </section>
+      </form>
+  </fieldset>
+  <script src="../JS/jquery-3.6.1.min.js"></script>
+  <script src="../JS/formulario.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
